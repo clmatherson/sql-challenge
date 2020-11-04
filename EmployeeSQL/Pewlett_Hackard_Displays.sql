@@ -62,3 +62,8 @@ SELECT
 FROM employees AS e
 GROUP BY last_name
 ORDER BY last_name DESC;
+
+-- Misc Query
+SELECT COUNT(*)
+FROM employees
+WHERE first_name = 'Hercules' AND sex = 'F';
